@@ -26,4 +26,35 @@ When implementing a new feature in a system (for example, a user credentials and
 ### - Capacity
 the system or resource is subjected to a peak in data volume or user access close to or above the planned limit to be supported, in order to verify the behavior of the system.
 
+## What are the requirements for running the performance test?
+
+## What performance metrics should I monitor closely?
+
+Here are some of the performance metrics that we can monitor closely to know if our application is performing well within the expectations of management, business, engineering and, of course, the end customer. To ensure that a performance test is truly efficient, it is crucial to monitor a series of metrics that provide detailed insights into the behavior of the system under different workloads. Here are some of the main metrics to monitor:
+
+**Response Time**
+Response time is a fundamental metric that indicates how long the system takes to respond to a request. This includes the time from when the request is sent until the complete response is received. Monitoring response time helps to identify whether the system is fast enough to meet user expectations. Ideally, response time should be as low as possible, even under maximum load.
+
+**Throughput**
+measures the amount of data processed by the system in a given period of time. It can be expressed as the number of transactions per second (TPS) or the number of requests per second.
+
+**Resource Utilization**
+This metric measures the use of system resources such as CPU, memory, disk, and network.
+
+**Error Rate**
+The error rate indicates the percentage of requests that fail compared to the total requests. A high error rate can be a sign that the system is not handling the load well, resulting in failures or incorrect responses. It is essential to keep the error rate as low as possible to ensure system reliability.
+
+**Latency**
+Latency refers to the delay in communication between the client and the server. It is the time it takes for a message to travel from one end to the other. High latency can significantly impact the user experience, especially in applications that require fast responses. Monitoring latency helps ensure that the system can provide fast responses even under loaded conditions.
+
+**Scalability**
+measures the system's ability to grow and handle an increasing load efficiently. This may include adding more users, transactions, or data.
+
+**Capacity**
+Capacity indicates the maximum number of users or transactions that the system can support while still meeting performance requirements.
+
+**Reliability**
+Reliability measures the ability of the system to function correctly without failure for a given period of time. This includes uptime analysis and the ability of the system to recover from failures. Monitoring reliability is essential to ensure that the system can provide continuous, high-quality service.
+
+**There are other metrics, but these give us a clinical view into the context of delivering quality to any application with incredible delivery!**
 
