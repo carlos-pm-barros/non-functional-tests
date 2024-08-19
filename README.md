@@ -77,6 +77,14 @@ In order to perform performance tests, it is important to have in mind a pre-def
 8. Repeatability and Validation
 9. Documentation and Reporting
 
+**Benefits of Monitoring Metrics** 
+
+By monitoring these metrics during performance testing, we will have a comprehensive view of the health and efficiency of the system. This allows companies to:
+  • Identify Performance Bottlenecks
+  • Optimize Resource Usage
+  • Improve User Experience (UX)
+  • Plan for Scalability    
+
 ## Some types of performance tests
 
 **Load Testing**
