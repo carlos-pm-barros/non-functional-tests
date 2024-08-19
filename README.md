@@ -26,8 +26,6 @@ When implementing a new feature in a system (for example, a user credentials and
 ### - Capacity
 the system or resource is subjected to a peak in data volume or user access close to or above the planned limit to be supported, in order to verify the behavior of the system.
 
-## What are the requirements for running the performance test?
-
 ## What performance metrics should I monitor closely?
 
 Here are some of the performance metrics that we can monitor closely to know if our application is performing well within the expectations of management, business, engineering and, of course, the end customer. To ensure that a performance test is truly efficient, it is crucial to monitor a series of metrics that provide detailed insights into the behavior of the system under different workloads. Here are some of the main metrics to monitor:
