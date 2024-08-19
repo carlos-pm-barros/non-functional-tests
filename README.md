@@ -85,28 +85,13 @@ By monitoring these metrics during performance testing, we will have a comprehen
   • Improve User Experience (UX)
   • Plan for Scalability    
 
-## Some types of performance tests
+## And last but not least, we can mention some of the challenges in performance testing:
 
-**Load Testing**
-
-analyzes the system's ability to perform with increasing levels of real loads or based on projections, before and after deployment in production, generated from the number of users, controlled or simultaneous processes.
-
-**Stress Testing**
-
-explores the ability of a system or component to handle load peaks at or above the predicted or planned load limits. Stress testing can also aim to verify how the system behaves with reduced resource availability, such as memory and processing capacity.
-
-**Scalability Testing**
-
-evaluates the ability of a system to meet future efficiency requirements, which may be beyond the requirements required for the initial launch of the system. Therefore, its objective is to determine the system's expansion capacity:
-• under increased users;
-• growth of stored data;
-• expansion of resources, etc.
-
-**Resistance Testing**
-
-Resistance testing evaluates the stability of the system within a specific period for the system's operational context. This test verifies whether there are resource capacity problems.
-
-**Capacity Testing**
-
-An example of a defect that can be detected during Capacity testing is a database with inadequate capacity for the workload generated. This can be caused by unoptimized queries and inadequate database sizing.
-
+  - Test Environment Configuration
+  - Definition of Realistic Test Scenarios
+  - Realistic Load Generation
+  - Monitoring and Data Collection
+  - Analysis and Interpretation of Results
+  - Maintenance of Test Scripts
+  - Test Scalability
+  - Cost and Time
