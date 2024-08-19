@@ -65,6 +65,20 @@ Reliability measures the ability of the system to function correctly without fai
 
 **There are other metrics, but these give us a clinical view into the context of delivering quality to any application with incredible delivery!**
 
+## What are the requirements for running the performance test?
+
+In order to perform performance tests, it is important to have in mind a pre-defined sequence of steps to follow, so that we can guarantee the accuracy and usefulness of the results. Below are the main requirements that, in my understanding, are important for performing performance tests:
+
+1. Clear Definition of Objectives
+2. Appropriate Test Environment
+3. Appropriate Test Tools
+4. Detailed Test Plans
+5. Realistic Data
+6. Continuous Monitoring
+7. Analysis of Results
+8. Repeatability and Validation
+9. Documentation and Reporting
+
 ## Some types of performance tests
 
 **Load Testing**
@@ -89,3 +103,4 @@ Resistance testing evaluates the stability of the system within a specific perio
 **Capacity Testing**
 
 An example of a defect that can be detected during Capacity testing is a database with inadequate capacity for the workload generated. This can be caused by unoptimized queries and inadequate database sizing.
+
