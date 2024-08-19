@@ -13,7 +13,17 @@ Performance tests, which are a specific type of non-functional test, measure the
   2. Stability: The application continues to function correctly even under heavy load or during long periods of use.
   3. Scalability: The application can be scaled (increased in terms of resources) to handle more users or larger volumes of data without losing performance.
 
-These tests are vital to ensure that an application delivers high reliability, security and ease of use, offering a positive experience to end users.
+**These tests are vital to ensure that an application delivers high reliability, security and ease of use, offering a positive experience to end users.**
 
+In order to be assertive in determining the focus and prioritization of tests, we must first map out the application's risks and needs, based on the user experience. After analyzing the test results, other risk areas may be identified and need to be addressed. Thus, performance has three distinct and simplified sub-characteristics in addition to those presented above, making the two triads merge into one:
+
+### - Time behavior
+Time behavior measurements can range from the end-to-end period used by the system to respond to user input, to the number of CPU cycles required by a software component to perform a specific task. For example, response time for a request sent to an API endpoint
+
+### - Resource utilization
+When implementing a new feature in a system (for example, a user credentials and permissions manager such as Keycloack), it is important to verify that the resources available for the use of this feature are sufficient and allow for adequate performance without compromising other existing features.
+
+### - Capacity
+the system or resource is subjected to a peak in data volume or user access close to or above the planned limit to be supported, in order to verify the behavior of the system.
 
 
